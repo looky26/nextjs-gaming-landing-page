@@ -265,21 +265,27 @@ const Home: NextPage = () => {
           </div>
           <div className="flex-[20%]">
             <h1 className="text-base font-bold pb-3">Contact Us</h1>
-            <p>Lorem Ipsum is simply dummy text <br /> of the printing and typesetting <br /> industry. </p>
+            <p>
+              Lorem Ipsum is simply dummy text <br /> of the printing and
+              typesetting <br /> industry.{" "}
+            </p>
             <p>+908 89097 890</p>
           </div>
 
-          <div className="flex flex-[35%] mt-20 justify-center">
+          <div className="hidden lg:flex flex-[35%] mt-20 justify-center">
             <img src="/facebook.svg" alt="" />
             <img src="/instagram.svg" alt="" />
             <img src="/twitter.svg" alt="" />
             <img src="/linkedin.svg" alt="" />
           </div>
-
-        
-
         </footer>
-        <hr className="h-[2 px]"/>
+        <div className="flex lg:hidden justify-center bg-white">
+          <img src="/facebook.svg" alt="" />
+          <img src="/instagram.svg" alt="" />
+          <img src="/twitter.svg" alt="" />
+          <img src="/linkedin.svg" alt="" />
+        </div>
+        <hr className="h-[2 px]" />
         <div className="bg-white text-center p-5">
           <p>Copyright ® 2022 prodesigner All rights Rcerved</p>
         </div>
