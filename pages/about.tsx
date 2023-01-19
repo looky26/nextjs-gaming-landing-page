@@ -12,7 +12,7 @@ const About = () => {
         <div className="text-white flex items-center justify-around content-center flex-wrap lg:flex-nowrap gap-y-10">
             {/* left */}
             <div className="space-y-5">
-              <p className="text-white">Home  > <span className="text-[#D80027]">About us </span>    </p>
+              <p className="text-white">Home<span className="text-[#D80027]">About us </span>    </p>
               <h1 className="text-5xl lg:text-[30px] leading-normal font-semibold">
               Lorem Ipsum is simply <br /> dummy text of the printing <br /> and.
               </h1>
